@@ -10,7 +10,6 @@ build: off
 
 install:
   - java -jar ./artifacts/app-mbank.jar &
-  - Grant execute permission for gradlew
 
 
 build_script:
