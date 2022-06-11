@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 public class MobileBankApiTestV6 {
-    private RequestSpecification requestSpec = new RequestSpecBuilder()
+    private final RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri("http://localhost")
             .setBasePath("/api/v1")
             .setPort(9999)
